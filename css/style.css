@@ -35,3 +35,68 @@ p{
             width: 400px;
             height: 200px;
         }
+
+
+        /* New css */
+        .Cart-container {
+            width: 100%;
+            margin: 0 auto;
+            /* align-items: center; */
+        }
+        
+        .Cart-container img {
+            border: 20px solid #addff5;
+            width: 180px;
+            height: 100px;
+        }
+
+        .Cart-container table{
+            width: 100%;
+        }
+
+        .Cart-container thead,th,tr,td{
+            border: 1px solid;
+        }
+
+        .Cart-container thead{
+            background-color: #addff5;        
+        }
+
+        .Cart-container h3{
+            text-align: right;
+        }
+        
+
+
+        .Order-container {
+            width: 100%;
+            margin: 0 auto;
+            /* align-items: center; */
+        }
+        .Order-container table{
+            width: 100%;
+        }
+        .Order-container .thankyou{
+            color: green;
+        }
+
+        .Order-container thead{
+            background-color: #addff5;        
+        }
+        .order-summary {
+            display: flex;
+            justify-content: space-between;
+        }
+        .order-summary div {
+            width: 45%;
+            font-size: 20px;
+        }
+
+        .product-name h2 {
+            margin: 0;
+        }
+
+        .product-details p {
+            margin: 0;
+            /* display: flex; */
+        }
