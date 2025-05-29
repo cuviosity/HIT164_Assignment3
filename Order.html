@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="AddCart.html">Add to Cart</a></li>
+            <li><a href="Order.html">Order</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="Order-container">
+            <h1>
+                Order Page
+            </h1>
+            <div>
+                <h2 class="thankyou">
+                    Thank You for your order! 
+                </h2>
+                <h3>
+                    Your order details are below.
+                </h3>
+            </div>
+            <div class="order-summary">
+                <div>
+                    <p><b>Order ID :</b> order_123</p>
+                    <p><b>Order Date :</b> 26 May 2025</p>
+                    <p><b>Order Status :</b> Packed</p>
+                </div>
+                <div>
+                    <p><b>Subtotal :</b> $28.31</p>
+                    <p><b>Delivery :</b> $2.00</p>
+                    <p><b>Total :</b> $30.31</p>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Item Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td>
+                            <h2>Croissant</h2>                            
+                          </td>
+                        <td>
+                            <p>
+                                Price : $ 10.11
+                            </p>
+                            <p>
+                                Qty : 1
+                            </p>
+                            <p>
+                                Total : $ 10.11
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h2>Cupcake</h2>                                                       
+                        </td>
+                        <td>
+                            <p>
+                                Price : $ 9.10
+                            </p>
+                            <p>
+                                Qty : 2
+                            </p>
+                            <p>
+                                Total : $ 18.20
+                            </p>
+                        </td>
+                    </tr> -->
+
+                     <tr class="product-row">
+                        <td class="product-name">
+                            <h2>Croissant</h2>                            
+                        </td>
+                        <td class="product-details">
+                            <p>Price: $10.11 | Qty: 1 | Total: $10.11</p>
+                        </td>
+                    </tr>
+                    <tr class="product-row">
+                        <td class="product-name">
+                            <h2>Cupcake</h2>                                                       
+                        </td>
+                        <td class="product-details">
+                            <p>Price: $9.10 | Qty: 2 | Total: $18.20</p>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
