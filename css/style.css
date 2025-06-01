@@ -1,6 +1,7 @@
 body{
     
     text-align: center;
+    background-color: bisque;
 }
 
 
@@ -15,7 +16,7 @@ p{
         nav ul {
             list-style-type: none;
             padding: 0;
-            text-align: center;
+            text-align: center;  
         }
         
         nav ul li {
@@ -30,7 +31,7 @@ p{
         }
         
         .Item-container img {
-            border: 20px solid #addff5;
+            border: 20px solid #cec69c;
             margin: 40px;
             width: 400px;
             height: 200px;
@@ -45,7 +46,7 @@ p{
         }
         
         .Cart-container img {
-            border: 20px solid #addff5;
+            border: 20px solid #cec69c;
             width: 180px;
             height: 100px;
         }
@@ -59,7 +60,7 @@ p{
         }
 
         .Cart-container thead{
-            background-color: #addff5;        
+            background-color: #cec69c;        
         }
 
         .Cart-container h3{
@@ -81,7 +82,7 @@ p{
         }
 
         .Order-container thead{
-            background-color: #addff5;        
+            background-color: #cec69c;        
         }
         .order-summary {
             display: flex;
